@@ -30,14 +30,14 @@ export default function Testimonials() {
                   <FadeIn>
                     <div className="items-center xl:flex md:flex lg:flex sm:flex">
                       <img
-                        src="/lildog2.jpg"
-                        alt="Charlie the dog"
+                        src="/people1.jpg"
+                        alt="testimony 1"
                         className="object-cover w-20 h-20 rounded-full "
                       />
 
                       <div className="pt-4 xl:pl-6 lg:pl-6 md:pl-6 sm:pl-6 sm:pt-0 font-display">
-                        <p className="text-xl font-bold ">Christianne S.</p>
-                        <p className="text-sm sm:text-xl">Pup To Pal Client</p>
+                        <p className="text-xl font-bold ">Nathopalime</p>
+                        <p className="text-sm sm:text-xl">Level 1 Subscriber</p>
                       </div>
                     </div>
                   </FadeIn>
@@ -63,31 +63,19 @@ export default function Testimonials() {
                 </div>
                 <FadeIn>
                   <p className="w-full pb-6 sm:w-10/12 lg:text-lg">
-                    Pup To Pal dog training has been incredible. My only regret
-                    is not calling Kaarina sooner. Only 4 sessions in and
-                    Kaarina has given me the confidence and knowledge to train
-                    our little Charlie so our whole family is happier. The fact
-                    that she's also trained our 6-year-old daughter how to
-                    manage Charlie's puppy energy is beyond life-changing.
-                    Before this, our daughter was heart-broken because of
-                    Charlie's excited behaviour and the nipping that came with
-                    it was frightening and overwhelming to her. I look forward
-                    to each session because I know I'll come away with more
-                    know-how and Charlie and our family will be better for it.
-                    Thank you Kaarina! Our experience has already far surpassed
-                    our expectations!
+                    Great training by experienced coach. As the newbie in parkour, I have no experience at all. The coach is very patient in guiding me for the leve1 1 training. Will subscribe for the next level course after this. At the moment, I was thinking to subscrive the level 2 program. 
                   </p>
                 </FadeIn>
 
-                {/* <img
+                <img
                     src="https://cdn.tuk.dev/assets/Path-right-arrow.png"
                     alt="arrow"
                     className="absolute right-0 mr-16 cursor-pointer sm:-mt-6"
                     onClick={() => setChange(!change)}
-                  /> */}
+                  /> 
               </div>
             </figure>
-            {/* <figure className={change ? "block" : "hidden"}>
+            <figure className={change ? "block" : "hidden"}>
                 <div className="relative w-11/12 px-10 py-10 mx-auto bg-white sm:px-16">
                   <h1 className="mb-6 text-2xl font-extrabold text-center text-green-500 font-display xl:text-3xl ">
                     HEAR FROM OUR CLIENTS
@@ -96,17 +84,14 @@ export default function Testimonials() {
                     <div className="items-center xl:flex md:flex lg:flex sm:flex">
                       <div className="w-20 h-20">
                         <img
-                          src=""
-                          alt=""
+                          src="/people2.jpg"
+                          alt="testimony 2"
                           className="object-cover w-full h-full rounded-full shadow"
                         />
                       </div>
                       <div className="pt-4 xl:pl-6 lg:pl-6 md:pl-6 sm:pl-6 sm:pt-0">
                         <p className="text-xl font-bold text-gray-600">
-                          THIS IS WHERE ANOTHER
-                        </p>
-                        <p className="text-sm text-gray-600 sm:text-xl">
-                          TESTIMONIAL WILL GO
+                          As an alumni in this training program, I will recommend this training course to my friends and family. I have good tesmony to anyone who are thinking to take parkour program from here. 
                         </p>
                       </div>
                     </div>
@@ -130,11 +115,8 @@ export default function Testimonials() {
                       </text>
                     </svg>
                   </div>
-                  <p className="w-full pb-6 text-base text-gray-600 sm:w-10/12">
-                    All the good stuff to be said goes here.
-                  </p>
                   <p className="w-full text-base text-gray-600 sm:w-10/12">
-                    And some more good stuff here.
+                    Lim Bak tu, Alumni of parkour academy
                   </p>
                   <img
                     src="https://cdn.tuk.dev/assets/Path-right-arrow.png"
@@ -143,7 +125,7 @@ export default function Testimonials() {
                     onClick={() => setChange(!change)}
                   />
                 </div>
-              </figure> */}
+              </figure>
           </section>
         </div>
       </div>
